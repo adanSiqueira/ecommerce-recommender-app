@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>{{ product.name }}</h2>
+<div class="product-detail">
+    <img src="{{ product.image }}" alt="{{ product.name }}" width="200">
+    <p><strong>Tipo:</strong> {{ product.type }}</p>
+    <p><strong>Categoria:</strong> {{ product.category }}</p>
+    <p><strong>Sexo:</strong> {{ product.gender }}</p>
+    <p><strong>Faixa Etária:</strong> {{ product.age_group }}</p>
+    {% if product.sizes %}
+      <p><strong>Tamanhos:</strong> {{ product.sizes}}</p>
+    {% endif %}
+    {% if product.color %}
+      <p><strong>Cor:</strong> {{ product.color }}</p>
+    {% endif %}
+    {% if product.season %}
+      <p><strong>Estação:</strong> {{ product.season }}</p>
+    {% endif %}
+    <p><strong>Preço:</strong> R$ {{ "%.2f"|format(product.price) }}</p>
+    <a href="{{ url_for('add_to_cart', product_id=product.id) }}">Adicionar ao Carrinho</a>
+</div>
+{% endblock %}

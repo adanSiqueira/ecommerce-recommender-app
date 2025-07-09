@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Seu Carrinho</h2>
+{% if cart_items %}
+  <ul>
+    {% for item in cart_items %}
+      <li>
+        {{ item.product.name }} - Quantidade: {{ item.quantity }} - R$ {{ "%.2f"|format(item.product.price * item.quantity) }}
+        <a href="{{ url_for('remove_from_cart', product_id=item.product.id) }}">Remover 1</a>
+      </li>
+    {% endfor %}
+  </ul>
+  <a href="{{ url_for('clear_cart') }}">Limpar Carrinho</a>
+{% else %}
+  <p>Seu carrinho está vazio.</p>
+{% endif %}
+{% endblock %}

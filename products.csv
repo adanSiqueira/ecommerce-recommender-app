@@ -1,0 +1,105 @@
+id,name,type,category,gender,age_group,sizes,color,season,price,image
+1,Camiseta de Futebol Brasil Masculino,Roupa,Esportes,Masculino,Adulto,"['P', 'M', 'G']",Padrão,Geral,89.9,https://http2.mlstatic.com/D_NQ_NP_2X_834113-MLB87234412793_072025-F-camisa-seleco-brasil-masculina-premium-torcedor-copa-2526.webp
+2,Camiseta de Futebol Brasil Feminino,Roupa,Esportes,Feminino,Adulto,"['P', 'M', 'G']",Padrão,Geral,89.9,https://http2.mlstatic.com/D_NQ_NP_2X_938300-MLB87285797913_072025-F-camisa-do-brasil-bordada-babylook-curta-feminina.webp
+3,Chuteira Futebol,Calçado,Esportes,Unissex,Adulto,"[37, 38, 39, 40, 41, 42, 43, 44]",Preto,,219.9,https://futcarioca.com/cdn/shop/files/chuteira-futebol-society-futsal-nitro-calcados-futcarioca-262213.webp?v=1707021615
+4,Teclado Gamer,Acessório,Gamer,Unissex,Adulto,,Padrão,,149.9,https://http2.mlstatic.com/D_NQ_NP_2X_749225-MLA86474337634_062025-F.webp
+5,Camiseta Dragon Ball,Roupa,Nerd,Unissex,Adulto,"['P', 'M', 'G']",Padrão,Geral,79.9,https://http2.mlstatic.com/D_NQ_NP_2X_989782-MLB84664186393_052025-F-c1-camiseta-camisa-personalizada-dragon-ball-goku-anim.webp
+6,Camiseta de Basquete Masculino,Roupa,Esportes,Masculino,Adulto,"['P', 'M', 'G']",Padrão,Geral,89.9,https://http2.mlstatic.com/D_Q_NP_2X_825129-MLB84029729919_042025-E-regata-basquete-chicago-masculina-jrkt-sports-ultra-dry.webp
+7,Camiseta de Basquete Feminino,Roupa,Esportes,Feminino,Adulto,"['P', 'M', 'G']",Padrão,Geral,89.9,https://http2.mlstatic.com/D_NQ_NP_2X_617421-MLB84306330894_052025-F-camiso-feminino-basquete-manga-curta-ref-delia.webp
+8,Bermuda de Basquete Masculino,Roupa,Esportes,Masculino,Adulto,"['P', 'M', 'G']",Padrão,Geral,59.9,https://http2.mlstatic.com/D_Q_NP_2X_662614-MLB86943502023_062025-E-bermuda-basquete-xxl-tamanhos-grandes-original-com-garantia.webp
+9,Shorts Fitness Feminino,Roupa,Esportes,Feminino,Adulto,"['P', 'M', 'G']",Padrão,Geral,59.9,https://http2.mlstatic.com/D_Q_NP_2X_646896-MLB84468486698_052025-E-bermuda-feminina-esportiva-ginastica-basquete-treino-boxe.webp
+10,Shorts de Muay Thai Masculino,Acessório,Esportes,Unissex,Adulto,,Padrão,,80.9,https://http2.mlstatic.com/D_Q_NP_2X_938737-MLB81447369817_122024-E-short-muaythai-dragon-thai-unissex-tailands-curto-premium.webp
+11,Shorts de Muay Thai Feminino,Acessório,Esportes,Unissex,Adulto,,Padrão,,80.9,https://http2.mlstatic.com/D_Q_NP_2X_784570-MLB84466855998_052025-E-short-muay-thai-feminino-ideal-para-esporte-preto.webp
+12,Luva de Boxe Adulto,Acessório,Esportes,Unissex,Adulto,,Padrão,,129.9,https://http2.mlstatic.com/D_Q_NP_2X_787110-MLB82578582617_022025-E-kit-luva-boxe-muay-thai-bandagem-bucal-10oz-a-16oz.webp
+13,Luva de Boxe Infantil,Acessório,Esportes,Unissex,Infantil,,Padrão,,99.9,https://http2.mlstatic.com/D_Q_NP_2X_731858-MLB72306555373_102023-E-luva-muay-thai-boxe-kickboxing-infantil-rostinho-spank.webp
+14,Bola de Basquete,Acessório,Esportes,Unissex,Todas,,Padrão,,89.9,https://http2.mlstatic.com/D_Q_NP_2X_782726-MLU76097052234_052024-E.webp
+15,Bola de Futebol,Acessório,Esportes,Unissex,Todas,,Padrão,,89.9,https://http2.mlstatic.com/D_Q_NP_2X_768717-MLA82895936719_032025-E.webp
+16,Kimono Adulto,Acessório,Esportes,Unissex,Adulto,,Padrão,,159.9,https://unisport.fbitsstatic.net/img/p/kimono-haganah-basic-reforcado-adulto-azul-150993/339873-1.jpg
+17,Kimono Infantil,Acessório,Esportes,Unissex,Infantil,,Padrão,,129.9,https://http2.mlstatic.com/D_Q_NP_2X_975890-MLB84515439070_052025-E-kimono-infantil-jiu-jitsu-haganah-jud-reforcado-faixa.webp
+18,Óculos de Natação,Acessório,Esportes,Unissex,Todas,,Padrão,,49.9,https://http2.mlstatic.com/D_Q_NP_2X_849971-MLA84743386114_052025-E.webp
+19,Bicicleta Adulto,Acessório,Esportes,Unissex,Adulto,,"['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",,799.9,https://http2.mlstatic.com/D_Q_NP_2X_836429-MLB83503093401_042025-E-bicicleta-aro-29-aco-carbono-ksvj-freios-disco-suspenso-21v.webp
+20,Cadeira Escritório,Acessório,Casa e Decoração,Unissex,Adulto,,"['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",,449.9,https://http2.mlstatic.com/D_Q_NP_2X_822235-MLA82984754301_032025-E.webp
+21,Quadro Futebol,Acessório,Casa e Decoração,Unissex,Adulto,,Padrão,,79.9,https://http2.mlstatic.com/D_Q_NP_2X_716148-MLB74366019342_022024-E-so-paulo-tri-campeo-mundial-frete-gratis-placa-decorativa.webp
+22,Quadro Paisagem,Acessório,Casa e Decoração,Unissex,Adulto,,Padrão,,79.9,https://http2.mlstatic.com/D_Q_NP_2X_910744-MLA82272805407_022025-E.webp
+23,Quadro Desenho,Acessório,Casa e Decoração,Unissex,Adulto,,Padrão,,79.9,https://http2.mlstatic.com/D_Q_NP_2X_747712-MLB80105175497_102024-E-quadro-decorativo-3-pecas-lilo-e-stitch-decoraco-quarto-kit.webp
+24,Jogo de Cama,Acessório,Casa e Decoração,Unissex,Adulto,,"['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",,199.9,https://http2.mlstatic.com/D_Q_NP_2X_754365-MLB87005121491_062025-E-edredom-casal-dupla-face-jogo-de-lencol-varias-cores.webp
+25,Headset Gamer,Acessório,Gamer,Unissex,Adulto,,Padrão,,179.9,https://http2.mlstatic.com/D_Q_NP_2X_645344-MLU72825278867_112023-E.webp
+26,Mousepad Gamer,Acessório,Gamer,Unissex,Adulto,,Padrão,,49.9,hhttps://http2.mlstatic.com/D_Q_NP_2X_717660-MLA87142813868_072025-E.webp
+27,Joystick,Acessório,Gamer,Unissex,Adulto,,Padrão,,139.9,https://http2.mlstatic.com/D_Q_NP_2X_924624-MLA83340508575_032025-E.webp
+28,Cadeira Gamer,Acessório,Gamer,Unissex,Adulto,,"['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",,599.9,https://http2.mlstatic.com/D_NQ_NP_2X_788927-MLB85985786235_062025-F-cadeira-gamer-profissional-reclinavel-apoio-de-pes-x-ray-top.webp
+29,Pista Carrinho Hotweels,Acessório,Brinquedos,Unissex,Infantil,,Padrão,,119.9,https://dummyimage.com/150x150/f4a460/000000&text=Pista
+30,Carrinho Hotweels Miniatura,Acessório,Brinquedos,Masculino,Infantil,,Padrão,,29.9,https://dummyimage.com/150x150/b22222/ffffff&text=Carrinho
+31,Boneca Barbie,Acessório,Brinquedos,Feminino,Infantil,,Padrão,,59.9,https://dummyimage.com/150x150/ffc0cb/000000&text=Barbie
+32,Caderno Heróis,Acessório,Brinquedos,Masculino,Infantil,,Padrão,,19.9,https://dummyimage.com/150x150/0000cd/ffffff&text=Heróis
+33,Caderno Princesas,Acessório,Brinquedos,Feminino,Infantil,,Padrão,,19.9,https://dummyimage.com/150x150/ff69b4/ffffff&text=Princesas
+34,Hortelã,Acessório,Plantas,Unissex,Adulto,,Padrão,,12.9,https://dummyimage.com/150x150/228b22/ffffff&text=Hortelã
+35,Samambaia,Acessório,Plantas,Unissex,Adulto,,Padrão,,29.9,https://dummyimage.com/150x150/006400/ffffff&text=Samambaia
+36,Terra,Acessório,Plantas,Unissex,Adulto,,Padrão,,9.9,https://dummyimage.com/150x150/8b4513/ffffff&text=Terra
+37,Semente de Girassol,Acessório,Plantas,Unissex,Adulto,,Padrão,,4.9,https://dummyimage.com/150x150/ffff00/000000&text=Girassol
+38,Adubos,Acessório,Plantas,Unissex,Adulto,,Padrão,,14.9,https://dummyimage.com/150x150/556b2f/ffffff&text=Adubo
+39,Orquídeas,Acessório,Plantas,Unissex,Adulto,,Padrão,,49.9,https://dummyimage.com/150x150/dda0dd/000000&text=Orquídea
+40,Vaso de Cerâmica,Acessório,Plantas,Unissex,Adulto,,Padrão,,24.9,https://dummyimage.com/150x150/b22222/ffffff&text=Vaso
+41,Suporte de parede para plantas,Acessório,Plantas,Unissex,Adulto,,Padrão,,39.9,https://dummyimage.com/150x150/8b0000/ffffff&text=Suporte
+42,Fertilizante,Acessório,Plantas,Unissex,Adulto,,Padrão,,19.9,https://dummyimage.com/150x150/9acd32/000000&text=Fertilizante
+43,Camiseta Marvel,Roupa,Nerd,Unissex,Adulto,"['P', 'M', 'G']",Padrão,Geral,79.9,https://dummyimage.com/150x150/ff0000/ffffff&text=Marvel
+44,Camiseta Batman,Roupa,Nerd,Unissex,Adulto,"['P', 'M', 'G']",Padrão,Geral,79.9,https://dummyimage.com/150x150/000000/ffffff&text=Batman
+45,Jogo de Cartas Pokémon,Acessório,Nerd,Unissex,Todas,,Padrão,,59.9,https://dummyimage.com/150x150/ffd700/000000&text=Pokemon
+46,Almofada Desenho,Acessório,Nerd,Unissex,Todas,,Padrão,,39.9,https://dummyimage.com/150x150/8a2be2/ffffff&text=Almofada
+47,Camisa Básica Masculino,Roupa,Moda,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,49.9,https://dummyimage.com/150x150/0000ff/ffffff&text=Básica+M
+48,Camisa Básica Feminino,Roupa,Moda,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,49.9,https://dummyimage.com/150x150/ff69b4/000000&text=Básica+F
+49,Camisa Social Masculino,Roupa,Moda,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,99.9,https://dummyimage.com/150x150/191970/ffffff&text=Social+M
+50,Camisa Social Feminino,Roupa,Moda,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,99.9,https://dummyimage.com/150x150/ffb6c1/000000&text=Social+F
+51,Bermuda,Roupa,Moda,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Verão,59.9,https://dummyimage.com/150x150/2e8b57/ffffff&text=Bermuda
+52,Calça Masculino,Roupa,Moda,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,89.9,https://dummyimage.com/150x150/696969/ffffff&text=Calça+M
+53,Calça Feminino,Roupa,Moda,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,89.9,https://dummyimage.com/150x150/d87093/000000&text=Calça+F
+54,Vestido,Roupa,Moda,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Verão,119.9,https://dummyimage.com/150x150/f08080/000000&text=Vestido
+55,Saia,Roupa,Moda,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Verão,69.9,https://dummyimage.com/150x150/ff69b4/ffffff&text=Saia
+56,Cueca,Roupa,Moda,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,19.9,https://dummyimage.com/150x150/000000/ffffff&text=Cueca
+57,Calcinha,Roupa,Moda,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,19.9,https://dummyimage.com/150x150/f4a460/000000&text=Calcinha
+58,Meias,Roupa,Moda,Unissex,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,14.9,https://dummyimage.com/150x150/808080/ffffff&text=Meias
+59,Bota,Roupa,Moda,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,199.9,https://dummyimage.com/150x150/8b4513/ffffff&text=Bota
+60,Cachecol,Roupa,Moda,Unissex,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,39.9,https://dummyimage.com/150x150/2f4f4f/ffffff&text=Cachecol
+61,Luvas Adulto,Roupa,Moda,Unissex,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,24.9,https://dummyimage.com/150x150/708090/ffffff&text=Luvas+Adulto
+62,Luvas Infantil,Roupa,Moda,Unissex,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,19.9,https://dummyimage.com/150x150/87cefa/000000&text=Luvas+Infantil
+63,Camisa Pólo Masculina,Roupa,Moda,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,79.9,https://dummyimage.com/150x150/4682b4/ffffff&text=Polo+M
+64,Calça de Moletom,Roupa,Esportes,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,54.54,https://dummyimage.com/150x150/472000/ffffff&text=P64
+65,Suéter,Roupa,Moda,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,58.93,https://dummyimage.com/150x150/109000/ffffff&text=P65
+66,  Blusa de Moletom,Roupa,Nerd,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,136.86,https://dummyimage.com/150x150/264000/ffffff&text=P66
+67,Calça de Moletom,Roupa,Esportes,Masculino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,97.57,https://dummyimage.com/150x150/162000/ffffff&text=P67
+68,Touca,Roupa,Nerd,Unissex,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,80.23,https://dummyimage.com/150x150/429000/ffffff&text=P68
+69,Calça de Moletom,Roupa,Nerd,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,184.12,https://dummyimage.com/150x150/761000/ffffff&text=P69
+70,Touca,Roupa,Moda,Masculino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,159.58,https://dummyimage.com/150x150/368000/ffffff&text=P70
+71,  Blusa de Moletom,Roupa,Moda,Feminino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,85.28,https://dummyimage.com/150x150/735000/ffffff&text=P71
+72,Touca,Roupa,Nerd,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,131.55,https://dummyimage.com/150x150/187000/ffffff&text=P72
+73,Suéter,Roupa,Moda,Masculino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,124.89,https://dummyimage.com/150x150/380000/ffffff&text=P73
+74,  Blusa de Moletom,Roupa,Nerd,Masculino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,151.25,https://dummyimage.com/150x150/748000/ffffff&text=P74
+75,Touca,Roupa,Moda,Unissex,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,180.97,https://dummyimage.com/150x150/812000/ffffff&text=P75
+76,  Blusa de Moletom,Roupa,Nerd,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,110.32,https://dummyimage.com/150x150/503000/ffffff&text=P76
+77,Sobretudo,Roupa,Moda,Feminino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,66.27,https://dummyimage.com/150x150/424000/ffffff&text=P77
+78,Suéter,Roupa,Nerd,Feminino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,133.36,https://dummyimage.com/150x150/427000/ffffff&text=P78
+79,Sobretudo,Roupa,Nerd,Masculino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,74.72,https://dummyimage.com/150x150/679000/ffffff&text=P79
+80,Touca,Roupa,Esportes,Masculino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,151.89,https://dummyimage.com/150x150/768000/ffffff&text=P80
+81,Suéter,Roupa,Nerd,Feminino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,124.5,https://dummyimage.com/150x150/540000/ffffff&text=P81
+82,Suéter,Roupa,Nerd,Feminino,Infantil,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,89.28,https://dummyimage.com/150x150/403000/ffffff&text=P82
+83,Touca,Roupa,Nerd,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,120.91,https://dummyimage.com/150x150/738000/ffffff&text=P83
+84,Macacão do Ursinho Pooh,Roupa,Nerd,Feminino,Adulto,"['P', 'M', 'G']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Inverno,142.91,https://dummyimage.com/150x150/738000/ffffff&text=P83
+85,Tenis Mizuno One,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,70.78,https://dummyimage.com/150x150/906000/ffffff&text=P85
+86,Tenis Olympicus Top,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,160.8,https://dummyimage.com/150x150/625000/ffffff&text=P86
+87,Tenis UnderArmour Casual,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,114.94,https://dummyimage.com/150x150/859000/ffffff&text=P87
+88,Tenis Mizuno Strong,Calçado,Esportes,Masculino,Adulto,"['37', '38', '39', '40', '41', '42', '43', '44']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,90.2,https://dummyimage.com/150x150/347000/ffffff&text=P88
+89,Tenis Adidas One,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,189.74,https://dummyimage.com/150x150/457000/ffffff&text=P89
+90,Tenis Adidas One,Calçado,Esportes,Feminino,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,74.31,https://dummyimage.com/150x150/567000/ffffff&text=P90
+91,Tenis Olympicus Strong,Calçado,Esportes,Feminino,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,172.41,https://dummyimage.com/150x150/621000/ffffff&text=P91
+92,Tenis Rebook AirFlow,Calçado,Esportes,Masculino,Adulto,"['37', '38', '39', '40', '41', '42', '43', '44']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,52.06,https://dummyimage.com/150x150/289000/ffffff&text=P92
+93,Tenis Olympicus Performance,Calçado,Esportes,Feminino,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,165.39,https://dummyimage.com/150x150/734000/ffffff&text=P93
+94,Tenis Adidas AirFlow,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,104.12,https://dummyimage.com/150x150/860000/ffffff&text=P94
+95,Tenis Mizuno AirFlow,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,165.97,https://dummyimage.com/150x150/593000/ffffff&text=P95
+96,Tenis Mizuno TheBest,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,198.34,https://dummyimage.com/150x150/728000/ffffff&text=P96
+97,Tenis Adidas Top,Calçado,Esportes,Feminino,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,198.77,https://dummyimage.com/150x150/537000/ffffff&text=P97
+98,Tenis Asics Top,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,175.77,https://dummyimage.com/150x150/730000/ffffff&text=P98
+99,Tenis UnderArmour AirFlow,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,180.96,https://dummyimage.com/150x150/519000/ffffff&text=P99
+100,Tenis Mizuno Ultra,Calçado,Esportes,Feminino,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,192.91,https://dummyimage.com/150x150/436000/ffffff&text=P100
+101,Tenis Jordan Top,Calçado,Esportes,Masculino,Adulto,"['37', '38', '39', '40', '41', '42', '43', '44']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,106.58,https://dummyimage.com/150x150/659000/ffffff&text=P101
+102,Tenis Jordan TheBest,Calçado,Esportes,Masculino,Adulto,"['37', '38', '39', '40', '41', '42', '43', '44']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,196.61,https://dummyimage.com/150x150/158000/ffffff&text=P102
+103,Tenis Rebook AirFlow,Calçado,Esportes,Unissex,Adulto,"['33', '34', '35', '36', '37']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,141.67,https://dummyimage.com/150x150/324000/ffffff&text=P103
+104,Tenis Rebook Max,Calçado,Esportes,Masculino,Adulto,"['37', '38', '39', '40', '41', '42', '43', '44']","['Preto', 'Branco', 'Azul', 'Rosa', 'Verde']",Geral,55.43,https://dummyimage.com/150x150/587000/ffffff&text=P104
