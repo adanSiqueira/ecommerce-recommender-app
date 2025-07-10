@@ -14,25 +14,6 @@
         {% endfor %}
         </select><br><br>
 
-        <label>Cor:</label><br>
-        <select name="color">
-        <option value="">Todas</option>
-        <option value="Preto" {% if request.args.get('color') == 'Preto' %}selected{% endif %}>Preto</option>
-        <option value="Branco" {% if request.args.get('color') == 'Branco' %}selected{% endif %}>Branco</option>
-        <option value="Azul" {% if request.args.get('color') == 'Azul' %}selected{% endif %}>Azul</option>
-        <option value="Rosa" {% if request.args.get('color') == 'Rosa' %}selected{% endif %}>Rosa</option>
-        <option value="Verde" {% if request.args.get('color') == 'Verde' %}selected{% endif %}>Verde</option>
-        <option value="Padrão" {% if request.args.get('color') == 'Padrão' %}selected{% endif %}>Padrão</option>
-        </select><br><br>
-
-        <label>Tamanho:</label><br>
-        <select name="size">
-        <option value="">Todos</option>
-        <option value="P" {% if request.args.get('size') == 'P' %}selected{% endif %}>P</option>
-        <option value="M" {% if request.args.get('size') == 'M' %}selected{% endif %}>M</option>
-        <option value="G" {% if request.args.get('size') == 'G' %}selected{% endif %}>G</option>
-        </select><br><br>
-
         <label>Sexo:</label><br>
         <select name="gender">
         <option value="">Todos</option>
@@ -46,14 +27,6 @@
         <option value="">Todas</option>
         <option value="Adulto" {% if request.args.get('age_group') == 'Adulto' %}selected{% endif %}>Adulto</option>
         <option value="Infantil" {% if request.args.get('age_group') == 'Infantil' %}selected{% endif %}>Infantil</option>
-        </select><br><br>
-
-        <label>Estação:</label><br>
-        <select name="season">
-        <option value="">Todas</option>
-        <option value="Inverno" {% if request.args.get('season') == 'Inverno' %}selected{% endif %}>Inverno</option>
-        <option value="Verão" {% if request.args.get('season') == 'Verão' %}selected{% endif %}>Verão</option>
-        <option value="Geral" {% if request.args.get('season') == 'Geral' %}selected{% endif %}>Geral</option>
         </select><br><br>
 
         <button type="submit">Aplicar</button>
