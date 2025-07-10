@@ -1,1 +1,1 @@
-from . import products
+from . import recomendation_model
