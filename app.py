@@ -44,11 +44,30 @@ def home():
 
 @app.route('/product/<int:product_id>')
 def product_detail(product_id):
-    product = next((p for p in products if p['id'] == product_id), None)
-    if product is None:
+    # Pega o produto atual
+    product = df[df['id'] == product_id].to_dict(orient='records')
+    if not product:
         return "Produto não encontrado", 404
-    log_interaction('view', product_id)
-    return render_template('product.html', product=product)
+    product = product[0]
+
+    # Simulação do log do usuário (idealmente, viria da sessão ou banco)
+    log_data = [
+        {'action': 'view', 'product_id': product_id},
+        # Aqui você pode adicionar outras interações anteriores do usuário
+    ]
+
+    # Geração do vetor e recomendações
+    user_vector = get_user_vector(log_data, df_r, tfidf_matrix)
+    recommended_df = get_recommendations_from_vector(user_vector, df, tfidf_matrix, top_n=4)
+
+    # Converte para lista de dicionários para o template
+    recommended_products = recommended_df.to_dict(orient='records')
+
+    return render_template(
+        'product.html',
+        product=product,
+        recommended_products=recommended_products
+    )
 
 @app.route('/cart')
 def cart():
@@ -68,7 +87,7 @@ def recommendations():
     if not product_ids:
         return render_template('recommendations.html', products=[])
     user_vector = np.array(tfidf_matrix[df_r[df_r['id'].isin(product_ids)].index].mean(axis=0)).flatten()
-    recommendations = get_recommendations_from_vector(user_vector, df, tfidf_matrix, top_n=5)
+    recommendations = get_recommendations_from_vector(user_vector, df, tfidf_matrix, top_n=15)
     recommendations = recommendations[~recommendations['id'].isin(product_ids)]
 
     return render_template('recommendations.html', products=recommendations.to_dict(orient="records"))
