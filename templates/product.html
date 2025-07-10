@@ -1,40 +1,51 @@
 {% extends "base.html" %}
-{% block content %}
-<h2>{{ product.name }}</h2>
-<div class="product-detail">
-    <img src="{{ product.image }}" alt="{{ product.name }}" width="200">
-    <p><strong>Tipo:</strong> {{ product.type }}</p>
-    <p><strong>Categoria:</strong> {{ product.category }}</p>
-    <p><strong>Sexo:</strong> {{ product.gender }}</p>
-    <p><strong>Faixa Etária:</strong> {{ product.age_group }}</p>
-    {% if product.sizes %}
-      <p><strong>Tamanhos:</strong> {{ product.sizes}}</p>
-    {% endif %}
-    {% if product.color %}
-      <p><strong>Cor:</strong> {{ product.color }}</p>
-    {% endif %}
-    {% if product.season %}
-      <p><strong>Estação:</strong> {{ product.season }}</p>
-    {% endif %}
-    <p><strong>Preço:</strong> R$ {{ "%.2f"|format(product.price) }}</p>
-    <a href="{{ url_for('add_to_cart', product_id=product.id) }}">Adicionar ao Carrinho</a>
-</div>
 
+{% block content %}
 <div class="container mt-5">
-  <h3 class="mt-4">Você também pode gostar de:</h3>
   <div class="row">
-    {% for rec in recommended_products %}
-      <div class="col-md-3 mb-4">
-        <div class="card h-100 shadow-sm">
-          <img src="{{ rec.image or url_for('static', filename='placeholder.png') }}" class="card-img-top" alt="{{ rec.name }}" style="object-fit: cover; height: 200px;">
-          <div class="card-body d-flex flex-column">
-            <h5 class="card-title">{{ rec.name }}</h5>
-            <p class="card-text">R$ {{ "%.2f"|format(rec.price or 0) }}</p>
-            <a href="{{ url_for('product_detail', product_id=rec.id) }}" class="btn btn-primary mt-auto">Ver Produto</a>
+    <!-- Foto do Produto à Esquerda -->
+    <div class="col-md-5">
+      <img src="{{ product.image }}" alt="{{ product.name }}" class="img-fluid" style="max-width: 100%; object-fit: cover;">
+    </div>
+
+    <!-- Nome e Detalhes do Produto à Direita -->
+    <div class="col-md-7">
+      <h2>{{ product.name }}</h2>
+      <p><strong>Tipo:</strong> {{ product.type }}</p>
+      <p><strong>Categoria:</strong> {{ product.category }}</p>
+      <p><strong>Sexo:</strong> {{ product.gender }}</p>
+      <p><strong>Faixa Etária:</strong> {{ product.age_group }}</p>
+      {% if product.sizes %}
+        <p><strong>Tamanhos:</strong> {{ product.sizes}}</p>
+      {% endif %}
+      {% if product.color %}
+        <p><strong>Cor:</strong> {{ product.color }}</p>
+      {% endif %}
+      {% if product.season %}
+        <p><strong>Estação:</strong> {{ product.season }}</p>
+      {% endif %}
+      <p><strong>Preço:</strong> R$ {{ "%.2f"|format(product.price) }}</p>
+      <a href="{{ url_for('add_to_cart', product_id=product.id) }}" class="btn btn-primary">Adicionar ao Carrinho</a>
+    </div>
+  </div>
+
+  <!-- Recomendações de Produtos -->
+  <div class="mt-5">
+    <h3 class="mt-4">Você também pode gostar de:</h3>
+    <div class="row">
+      {% for rec in recommended_products %}
+        <div class="col-md-3 mb-4">
+          <div class="card h-100 shadow-sm">
+            <img src="{{ rec.image or url_for('static', filename='placeholder.png') }}" class="card-img-top" alt="{{ rec.name }}" style="object-fit: cover; height: 200px;">
+            <div class="card-body d-flex flex-column">
+              <h5 class="card-title">{{ rec.name }}</h5>
+              <p class="card-text">R$ {{ "%.2f"|format(rec.price or 0) }}</p>
+              <a href="{{ url_for('product_detail', product_id=rec.id) }}" class="btn btn-primary mt-auto">Ver Produto</a>
+            </div>
           </div>
         </div>
-      </div>
-    {% endfor %}
+      {% endfor %}
+    </div>
   </div>
 </div>
 

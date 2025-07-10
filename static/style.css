@@ -109,7 +109,7 @@ nav a:hover {
 }
 
 /* Card de produto */
-.product-card {
+ .product-card {
     width: 180px;
     padding: 10px;
     margin: 10px;
@@ -124,7 +124,7 @@ nav a:hover {
 
 .product-card:hover {
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
-}
+}  
 
 .product-card h3 {
   font-size: 1.1rem;
