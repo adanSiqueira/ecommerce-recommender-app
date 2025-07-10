@@ -32,6 +32,11 @@ Desenvolver um sistema de recomendação que indique produtos relevantes ao usu�
 | **Bootstrap** | Para responsividade e estilização visual dos cards e páginas do e-commerce. |
 
 ---
+## Demonstração 
+
+![Demonstration](projectDemo.gif)
+
+---
 
 ## 🧠 Abordagem de Machine Learning
 
