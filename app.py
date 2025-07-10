@@ -20,7 +20,7 @@ def log_interaction(event_type, product_id):
         writer = csv.writer(csvfile)
         writer.writerow([datetime.now(), session.get('session_id', 'anonymous'), event_type, product_id])
 
-df = pd.read_csv('products.csv')
+df = pd.read_csv('products.csv').fillna({'price': 0, 'image': ''})
 products = df.to_dict(orient='records')
 df_r, tfidf_matrix = load_data()
 
@@ -71,14 +71,38 @@ def product_detail(product_id):
 
 @app.route('/cart')
 def cart():
-    cart_items = session.get('cart', [])
+    cart_raw = session.get('cart', [])
+    product_ids = [item['id'] for item in cart_raw]
+
+    # Obtem produtos completos do DataFrame original
+    full_products = df[df['id'].isin(product_ids)].to_dict(orient='records')
+    product_map = {p['id']: p for p in full_products}
+
     grouped_cart = defaultdict(lambda: {'product': None, 'quantity': 0})
-    for item in cart_items:
+    for item in cart_raw:
         pid = item['id']
-        grouped_cart[pid]['product'] = item
-        grouped_cart[pid]['quantity'] += 1
+        if pid in product_map:
+            grouped_cart[pid]['product'] = product_map[pid]
+            grouped_cart[pid]['quantity'] += 1
+
     cart_display = list(grouped_cart.values())
-    return render_template('cart.html', cart_items=cart_display)
+    total_price = sum(entry['product']['price'] * entry['quantity'] for entry in cart_display)
+
+    # --- SISTEMA DE RECOMENDAÇÃO ---
+    recommended_products = []
+    if product_ids:
+        user_vector = np.array(tfidf_matrix[df_r[df_r['id'].isin(product_ids)].index].mean(axis=0)).flatten()
+        recommendations_df = get_recommendations_from_vector(user_vector, df, tfidf_matrix, top_n=6)
+        recommendations_df = recommendations_df[~recommendations_df['id'].isin(product_ids)]
+        recommended_products = recommendations_df.to_dict(orient='records')
+
+    return render_template(
+        'cart.html',
+        cart_items=cart_display,
+        total_price=total_price,
+        recommended_products=recommended_products
+    )
+
 
 @app.route('/recommendations')
 def recommendations():
@@ -96,12 +120,17 @@ def recommendations():
 @app.route('/add_to_cart/<int:product_id>')
 def add_to_cart(product_id):
     cart = session.get('cart', [])
-    product = next((p for p in products if p['id'] == product_id), None)
-    if product:
+    
+    # Garante que a linha está presente e sem NaNs
+    product_row = df[df['id'] == product_id]
+    if not product_row.empty:
+        product = product_row.iloc[0].fillna({'price': 0, 'image': ''}).to_dict()
         cart.append(product)
         session['cart'] = cart
         log_interaction('add_to_cart', product_id)
+
     return redirect(url_for('cart'))
+
 
 @app.route('/remove_from_cart/<int:product_id>')
 def remove_from_cart(product_id):

@@ -1,17 +1,59 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>Seu Carrinho</h2>
-{% if cart_items %}
-  <ul>
-    {% for item in cart_items %}
-      <li>
-        {{ item.product.name }} - Quantidade: {{ item.quantity }} - R$ {{ "%.2f"|format(item.product.price * item.quantity) }}
-        <a href="{{ url_for('remove_from_cart', product_id=item.product.id) }}">Remover 1</a>
-      </li>
+<div class="container mt-5">
+  <h2>🛒 Seu Carrinho</h2>
+  {% if cart_items %}
+    <ul class="list-group mb-4">
+      {% for entry in cart_items %}
+        {% set product = entry.product %}
+        <li class="list-group-item d-flex justify-content-between align-items-center">
+          <div class="d-flex align-items-center">
+            <img src="{{ product.image or url_for('static', filename='placeholder.png') }}"
+                 alt="{{ product.name }}"
+                 style="width: 60px; height: 60px; object-fit: cover; border-radius: 8px; margin-right: 15px;">
+            <div>
+              <strong>{{ product.name }}</strong><br>
+              <small>Quantidade: {{ entry.quantity }}</small>
+            </div>
+          </div>
+          <div class="text-end">
+            <div>R$ {{ "%.2f"|format(product.price or 0) }} <small class="text-muted">cada</small></div>
+            <div><strong>R$ {{ "%.2f"|format((product.price or 0) * entry.quantity) }}</strong></div>
+            <a href="{{ url_for('remove_from_cart', product_id=product.id) }}"
+               class="btn btn-sm btn-danger mt-2">Remover 1</a>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+    <div class="d-flex justify-content-between align-items-center">
+      <h4>Total: R$ {{ "%.2f"|format(total_price or 0) }}</h4>
+      <a href="{{ url_for('clear_cart') }}" class="btn btn-outline-danger">🗑 Limpar Carrinho</a>
+    </div>
+
+{% if recommended_products %}
+  <hr class="my-5">
+  <h3 class="mb-4">Você também vai gostar de:</h3>
+  <div class="row">
+    {% for product in recommended_products %}
+      <div class="col-md-3 mb-4">
+        <div class="card h-100 shadow-sm">
+          <img src="{{ product.image or url_for('static', filename='placeholder.png') }}"
+               class="card-img-top" style="height: 180px; object-fit: cover;" alt="{{ product.name }}">
+          <div class="card-body">
+            <h5 class="card-title" style="font-size: 1rem;">{{ product.name }}</h5>
+            <p class="card-text text-muted">R$ {{ "%.2f"|format(product.price or 0) }}</p>
+            <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn btn-primary btn-sm">Ver produto</a>
+          </div>
+        </div>
+      </div>
     {% endfor %}
-  </ul>
-  <a href="{{ url_for('clear_cart') }}">Limpar Carrinho</a>
-{% else %}
-  <p>Seu carrinho está vazio.</p>
+  </div>
 {% endif %}
+
+{% else %}
+    <p>Seu carrinho está vazio.</p>
+  {% endif %}
+</div>
+
 {% endblock %}
