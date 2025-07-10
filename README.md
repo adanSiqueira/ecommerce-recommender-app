@@ -12,6 +12,8 @@
 
 Este projeto demonstra a construção de um sistema de recomendação inteligente aplicado a uma **aplicação web de e-commerce**, com foco em personalização da experiência do usuário. A solução combina **Machine Learning**, processamento de dados e desenvolvimento web para sugerir produtos com base em interações reais (visualizações e adições ao carrinho), simulando o funcionamento de uma loja online moderna.
 
+> ⚠️ **Nota**: o foco principal deste projeto não é criar a aplicação web mais sofisticada. O objetivo é **demonstrar, de forma prática, interativa e visível, o funcionamento de um sistema de recomendação baseado em comportamento real do usuário**. A interface da loja funciona como suporte para evidenciar como o **modelo de machine learning** responde a diferentes interações e gera recomendações em tempo real.
+
 ---
 
 ## 🎯 Objetivo
