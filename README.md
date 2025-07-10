@@ -1,4 +1,14 @@
-# 🛒 Sistema de Recomendação para E-commerce com Machine Learning
+# Sistema de Recomendação para E-commerce com Machine Learning
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-Web_Framework-black?logo=flask)
+![Pandas](https://img.shields.io/badge/Pandas-Data_Analysis-150458?logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical_Computing-013243?logo=numpy)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-Machine_Learning-F7931E?logo=scikit-learn&logoColor=white)
+![Jinja2](https://img.shields.io/badge/Jinja2-Templating-orange?logo=jinja)
+![HTML](https://img.shields.io/badge/HTML5-Markup-E34F26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-Styling-1572B6?logo=css3&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-Responsive_UI-7952B3?logo=bootstrap&logoColor=white)
 
 Este projeto demonstra a construção de um sistema de recomendação inteligente aplicado a uma **aplicação web de e-commerce**, com foco em personalização da experiência do usuário. A solução combina **Machine Learning**, processamento de dados e desenvolvimento web para sugerir produtos com base em interações reais (visualizações e adições ao carrinho), simulando o funcionamento de uma loja online moderna.
 
@@ -14,7 +24,7 @@ Desenvolver um sistema de recomendação que indique produtos relevantes ao usu�
 
 | Tecnologia         | Descrição |
 |--------------------|----------|
-| **Python**         | Linguagem principal usada para desenvolvimento da lógica, processamento de dados e integração com a aplicação web. |
+| **Python**         | Linguagem principal usada para desenvolvimento da lógica, processamento de dados, integração com a aplicação web e desenvolvimento do Sistema de Recomendação. |
 | **Pandas / NumPy** | Manipulação de dados tabulares, vetorização, criação de matrizes e suporte ao modelo de recomendação. |
 | **Scikit-learn**   | Utilizado para funções auxiliares, como vetorização de textos e cálculo de similaridade. |
 | **Flask**          | Framework web leve utilizado para criar rotas, exibir páginas e conectar o backend ao frontend. |
@@ -56,6 +66,7 @@ O modelo de recomendação foi desenvolvido em Python com foco em **filtragem ba
 ---
 
 ## 📌 Estrutura do Projeto
+```
 ecommerce-recommender/
 │
 ├── app.py # Lógica principal da aplicação Flask
@@ -64,7 +75,7 @@ ecommerce-recommender/
 ├── templates/ # HTML com Jinja2 para renderização das páginas
 ├── static/ # CSS, imagens e recursos estáticos
 └── README.md # Este arquivo
-
+```
 
 ---
 
