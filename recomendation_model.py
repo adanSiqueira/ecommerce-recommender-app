@@ -19,7 +19,6 @@ def get_user_vector(log_data, df, tfidf_matrix):
     ACTION_WEIGHTS = {
         'view': 0.2,
         'add_to_cart': 0.7,
-        'purchase': 1.0,
         'remove_from_cart': -0.3  # pode ignorar se não usar
     }
 
