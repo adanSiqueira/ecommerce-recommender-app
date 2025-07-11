@@ -39,6 +39,20 @@ Desenvolver um sistema de recomendação que indique produtos relevantes ao usu�
 ![Demonstration](projectDemo.gif)
 
 ---
+## 🚀 Deploy na Nuvem com Google Cloud Run + Docker
+Este projeto foi empacotado e implantado utilizando o Google Cloud Run, permitindo que o sistema de recomendação funcione como um serviço web escalável, sem necessidade de servidores dedicados.
+
+🔗 Acesse a aplicação online:
+https://recommendation-system-ecommerce-276412923171.europe-west1.run.app/
+
+### ✅ Por que usar o Cloud Run?
+
+-  Escala automaticamente de 0 para N requisições.
+-  Totalmente serverless — sem precisar configurar infraestrutura.
+-  Aceita deploy direto do GitHub com Docker.
+-  Ideal para projetos de Machine Learning leves que precisam de uma API ou interface interativa
+
+---
 
 ## 🧠 Abordagem de Machine Learning
 
