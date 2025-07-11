@@ -13,4 +13,4 @@ ENV FLASK_RUN_PORT=8080
 ENV FLASK_RUN_HOST=0.0.0.0
 
 # Comando para iniciar a aplicação
-CMD ["flask", "run"]
+CMD ["python", "app.py"]
