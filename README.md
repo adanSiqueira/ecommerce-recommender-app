@@ -58,7 +58,7 @@ https://recommendation-system-ecommerce-276412923171.europe-west1.run.app/
 
 Além da aplicação funcional, este projeto inclui um **notebook interativo** que documenta o processo completo de desenvolvimento do sistema de recomendação, com foco na abordagem baseada em conteúdo.
 
-O notebook pode ser acessado no arquivo [`Desenvolvimento-do-Modelo.ipynb`](./Desenvolvimento-do-Modelo.ipynb) dentro do repositório.
+O notebook pode ser acessado no arquivo [`Desenvolvimento-do-Modelo.ipynb`](./Desenvolvimendo_do_Modelo.ipynb) dentro do repositório.
 
 O notebook também explora:
 
