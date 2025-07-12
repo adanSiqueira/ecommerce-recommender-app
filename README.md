@@ -54,6 +54,21 @@ https://recommendation-system-ecommerce-276412923171.europe-west1.run.app/
 
 ---
 
+## Notebook Explicativo: Desenvolvimento do Modelo
+
+Além da aplicação funcional, este projeto inclui um **notebook interativo** que documenta o processo completo de desenvolvimento do sistema de recomendação, com foco na abordagem baseada em conteúdo.
+
+O notebook pode ser acessado no arquivo [`Desenvolvimento-do-Modelo.ipynb`](./Desenvolvimento-do-Modelo.ipynb) dentro do repositório.
+
+O notebook também explora:
+
+- Vetorização textual com TF-IDF
+- Cálculo de similaridade com Cosine Similarity
+- Geração de recomendações personalizadas com base no comportamento simulado
+- Estratégia de avaliação qualitativa usando perfis fictícios
+
+---
+
 ## 🧠 Abordagem de Machine Learning
 
 O modelo de recomendação foi desenvolvido em Python com foco em **filtragem baseada em conteúdo**, com suporte para recomendações simples por **co-ocorrência**. As principais etapas foram:
