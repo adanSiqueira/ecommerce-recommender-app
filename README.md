@@ -129,8 +129,8 @@ ecommerce-recommender/
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/seuusuario/ecommerce-recommender.git
-   cd ecommerce-recommender
+   git clone https://github.com/adanSiqueira/recommendation-system-ecommerce.git
+   cd seu-caminho
    ```
 2. Instale os pacotes necessários:
    ```bash
@@ -139,3 +139,5 @@ ecommerce-recommender/
 3. Execute o aplicativo:
    ```bash
    python app.py
+
+Ou então, acessando diretamente: https://recommendation-system-ecommerce-276412923171.europe-west1.run.app/
